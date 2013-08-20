@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Let drink for...</h2>
+
+<h1 class="reason">
+  <%= @cause.content %>
+</h1>
+
+<p class="author">
+  <b>Author:</b>
+  <%= @cause.author %>
+</p>
+
+<p>
+	<%= link_to 'Get new reason', random_cause_path, :class => 'get_new' %>
+	<span class="loading">Loading</span>
+</p>

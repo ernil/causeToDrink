@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"format"
+			],
+			[
+				"rand",
+				"random"
+			],
+			[
+				"reas",
+				"reason"
+			],
+			[
+				"rea",
+				"reason"
+			],
+			[
+				"ki",
+				"kitten"
+			],
+			[
+				"kitte",
+				"kitten"
+			],
+			[
+				"kit",
+				"kitten"
+			],
+			[
+				"re",
+				"require"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"ham",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"coff",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"cofe",
+				"Coffee: Check Syntax"
+			],
+			[
+				"compi",
+				"Coffee: Compile File"
+			],
+			[
+				"node run",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"run",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"node",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"node ru",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"noderun",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ernil/projects/reasonToDrink/app/views/application/head.jade",
+		"/home/ernil/projects/reasonToDrink/app/views/layouts/head.jade",
+		"/home/ernil/projects/reasonToDrink/app/views/layouts/application_layout.ejs",
+		"/home/ernil/projects/reasonToDrink/package.json",
+		"/home/ernil/projects/reasonToDrink/app/models/reason.coffee",
+		"/home/ernil/projects/reasonToDrink/config/autoload.coffee",
+		"/home/ernil/projects/reasonToDrink/app/views/reasons/show.ejs",
+		"/home/ernil/projects/reasonToDrink/app/views/reasons/_form.ejs",
+		"/home/ernil/projects/reasonToDrink/db/schema.coffee",
+		"/home/ernil/projects/reasonToDrink/config/routes.coffee",
+		"/home/ernil/projects/reasonToDrink/app/controllers/reasons_controller.coffee",
+		"/home/ernil/projects/reasonToDrink/app/controllers/application_controller.coffee",
+		"/home/ernil/projects/reasonToDrink/config/environments/development.coffee",
+		"/home/ernil/projects/reasonToDrink/app/assets/coffeescripts/application.coffee",
+		"/home/ernil/projects/reasonToDrink/app/views/application/index.ejs",
+		"/home/ernil/projects/reasonToDrink/app/views/reasons/random.ejs",
+		"/home/ernil/projects/reasonToDrink/README.md",
+		"/home/ernil/.ssh/id_rsa.pub",
+		"/home/ernil/projects/reasonToDrink/config/database.coffee",
+		"/home/ernil/projects/reasonToDrink/app/views/reasons/index.ejs",
+		"/home/ernil/projects/TicTac/config/routes.coffee",
+		"/home/ernil/projects/TicTac/config/environment.coffee",
+		"/home/ernil/projects/myApp/myApp/app/views/layout.jade",
+		"/home/ernil/projects/myApp/myApp/app/views/kitten/index.jade",
+		"/home/ernil/projects/myApp/myApp/app/views/index.jade",
+		"/home/ernil/projects/myApp/myApp/app/controllers/kitten_controller.js",
+		"/home/ernil/projects/myApp/myApp/config/express.js",
+		"/home/ernil/projects/myApp/myApp/app/models/kitten_model.js",
+		"/home/ernil/projects/myApp/myApp/app/models/kitten_model.coffee",
+		"/home/ernil/projects/myApp/myApp/routes/routes.coffee",
+		"/home/ernil/projects/myApp/myApp/app/controllers/kitten_controller.coffee",
+		"/home/ernil/projects/myApp/myApp/server.js",
+		"/home/ernil/projects/myApp/myApp/app/controllers/index.jade",
+		"/home/ernil/projects/myApp/myApp/app/controllers/kitten.js",
+		"/home/ernil/projects/myApp/myApp/routes/routes.js",
+		"/home/ernil/projects/myApp/myApp/app/controllers/kitten.coffee",
+		"/home/ernil/projects/myApp/myApp/config.js",
+		"/home/ernil/projects/myApp/myApp/config/mongoose.coffee",
+		"/home/ernil/projects/myApp/myApp/models/kitten.coffee",
+		"/home/ernil/projects/myApp/myApp/models.coffee",
+		"/home/ernil/projects/myApp/myApp/app.js",
+		"/home/ernil/projects/myApp/myApp/routes/user.js",
+		"/home/ernil/projects/myApp/myApp/models.js",
+		"/home/ernil/projects/myApp/myApp/package.json",
+		"/home/ernil/projects/nodepad/models.js",
+		"/home/ernil/projects/myApp/myApp/routes/index.js",
+		"/home/ernil/projects/nodepad/app.js",
+		"/home/ernil/projects/myApp/myApp/models/models.js",
+		"/home/ernil/projects/nodepad/package.json"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content",
+			"country",
+			"author",
+			"content",
+			"new",
+			"  \n",
+			",",
+			"Document",
+			"get"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 183.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"appllayej",
+				"app/views/layouts/application_layout.ejs"
+			],
+			[
+				"applco",
+				"app/assets/coffeescripts/application.coffee"
+			],
+			[
+				"reason",
+				"app/models/reason.coffee"
+			],
+			[
+				"packe",
+				"package.json"
+			],
+			[
+				"develo",
+				"config/environments/development.coffee"
+			],
+			[
+				"route",
+				"config/routes.coffee"
+			],
+			[
+				"rout",
+				"config/routes.coffee"
+			],
+			[
+				"routes",
+				"config/routes.coffee"
+			],
+			[
+				"applcon",
+				"app/controllers/application_controller.coffee"
+			],
+			[
+				"deve",
+				"config/environments/development.coffee"
+			],
+			[
+				"expre",
+				"config/express.js"
+			],
+			[
+				"kitcon",
+				"app/controllers/kitten_controller.coffee"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"serve",
+				"server.js"
+			],
+			[
+				"expres",
+				"config/express.js"
+			],
+			[
+				"indeja",
+				"app/views/kitten/index.jade"
+			],
+			[
+				"serv",
+				"server.js"
+			],
+			[
+				"indexja",
+				"app/views/kitten/index.jade"
+			],
+			[
+				"kitcont",
+				"app/controllers/kitten_controller.js"
+			],
+			[
+				"se",
+				"server.js"
+			],
+			[
+				"kitmod",
+				"app/models/kitten_model.js"
+			],
+			[
+				"srv",
+				"server.js"
+			],
+			[
+				"kitecon",
+				"app/controllers/kitten_controller.coffee"
+			],
+			[
+				"kitmode",
+				"app/models/kitten_model.js"
+			],
+			[
+				"models",
+				"models.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"user",
+				"routes/user.js"
+			],
+			[
+				"model",
+				"models.js"
+			],
+			[
+				"index",
+				"routes/index.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true
+}

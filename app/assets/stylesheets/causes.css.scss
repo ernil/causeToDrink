@@ -1,0 +1,26 @@
+// Place all the styles related to the causes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+
+	h2 {
+		font-family: Georgia;
+		font-weight: normal;
+		font-size: 25px;
+	}
+
+	h1.reason {
+		font-family: Georgia;
+		font-weight: normal;
+		font-size: 40px;
+		text-align: center;
+	}
+	.author {
+		text-align: right;
+	}
+}
+
+.loading {
+	display:none;
+}

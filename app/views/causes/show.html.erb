@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @cause.content %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @cause.author %>
+</p>
+
+<p>
+  <b>Day:</b>
+  <%= @cause.day %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @cause.country %>
+</p>
+
+<p>
+  <b>Holiday:</b>
+  <%= @cause.holiday %>
+</p>
+
+<p>
+  <b>Approved:</b>
+  <%= @cause.approved %>
+</p>
+
+
+<%= link_to 'Edit', edit_cause_path(@cause) %> |
+<%= link_to 'Back', causes_path %>
