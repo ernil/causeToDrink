@@ -6,7 +6,8 @@ gem 'rails', '3.2.14'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'yaml_db'
+gem 'faker'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -16,7 +17,8 @@ group :assets do
   gem 'haml'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
+  gem 'execjs'
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -37,3 +39,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+
+gem 'newrelic_rpm'

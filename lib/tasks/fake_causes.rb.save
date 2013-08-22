@@ -1,0 +1,55 @@
+namespace :db do
+  namespace :development do
+    desc "Create cause records in the development database."
+
+    task :fake_user_data => :environment do
+      require 'faker'
+
+      @countries = ["Religion", "National", "Birthday", "Other"]
+      @genders = ["Male","Female"]
+
+      def randomDate(params={})
+        years_back = params[:year_range] || 5
+        latest_year  = params [:year_latest] || 0
+        year = (rand * (years_back)).ceil + (Time.now.year - latest_year - years_back)
+        month = (rand * 12).ceil
+        day = (rand * 31).ceil
+        series = [date = Time.local(year, month, day)]
+        if params[:series]
+          params[:series].each do |some_time_after|
+            series << series.last + (rand * some_time_after).ceil
+          end
+          return series
+        end
+        date
+      end
+
+      100.times do
+
+        u = User.new(
+          :first_name => Faker::Name.first_name,
+          :last_name => Faker::Name.last_name,
+          :birthdate => randomDate(:year_range => 60, :year_latest => 22),
+          :created_at => randomDate(:year_range => 4, :year_latest => 0),
+          :city => Faker::Lorem.words(1).to_s.capitalize,
+          :state => Faker::Address.us_state(),
+          :country => @countries.rand.to_s,
+          :password => "greatpasswordhuh",
+          :password_confirmation => "greatpasswordhuh",
+          :accepts_terms_and_conditions => true,
+          :gender => @genders.rand.to_s,
+          :email => Faker::Internet.email
+        )
+
+        u.extended_profile = ExtendedProfile.new(
+          :bio => Faker::Lorem.sentences(5).join(" "),
+          :occupation => Faker::Lorem.words(1).to_s.capitalize
+        )
+
+        u.preferences = Preferences.new()
+        u.save!
+
+      end
+    end
+  end
+end
