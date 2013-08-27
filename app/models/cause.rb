@@ -15,5 +15,9 @@ class Cause < ActiveRecord::Base
   # 	end
   # end=end
 
+  def self.find_random
+    causes = Cause.where('(day = ? AND month = ?) OR (day IS ?)', Time.now.day, Time.now.month, nil)
+    causes.offset(rand(causes.count)).first
+  end
 
 end

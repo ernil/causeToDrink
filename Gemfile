@@ -42,3 +42,9 @@ gem 'jquery-rails'
 
 
 gem 'newrelic_rpm'
+
+
+
+# social
+gem 'omniauth-twitter'
+gem 'twitter'

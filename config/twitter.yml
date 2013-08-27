@@ -1,0 +1,6 @@
+development:
+  oauth_token: '1701436567-qPSTNZVj1w0NWjR71O6W9vsAr4Mw4XeG0MGbqvU'
+  oauth_token_secret: 'xVaipRYdNAhuCZCqaiYziIl5xclSUjGY2r1PVY2WUw'
+production:
+  oauth_token: '1701436567-qPSTNZVj1w0NWjR71O6W9vsAr4Mw4XeG0MGbqvU'
+  oauth_token_secret: 'xVaipRYdNAhuCZCqaiYziIl5xclSUjGY2r1PVY2WUw'
