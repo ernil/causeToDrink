@@ -82,8 +82,9 @@ class CausesController < ApplicationController
   end
 
   def random
-    #@cause = Cause.where('(day = ? AND month = ?) OR (day IS ?)', Time.now.day, Time.now.month, nil).first
-    @cause = Cause.offset(rand(Cause.count)).first
+    @causes = Cause.where('(day = ? AND month = ?) OR (day IS ?)', Time.now.day, Time.now.month, nil)
+    @cause = @causes.offset(rand(@causes.count)).first
+
     logger.debug @cause
 
     respond_to do |format|

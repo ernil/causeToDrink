@@ -15,3 +15,7 @@
 	<%= link_to 'Get new reason', random_cause_path, :class => 'get_new' %>
 	<span class="loading">Loading</span>
 </p>
+
+<% @causes.each do |c| %>
+	<div><%= c.content %> - <%= c.day %>/<%= c.month %></div>
+<% end %>
