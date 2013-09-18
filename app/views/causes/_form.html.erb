@@ -33,7 +33,13 @@
   </div>
   <div class="field">
     <%= f.label :holiday %><br />
-    <%= f.text_field :holiday %>
+    <%= f.select( :holiday, 
+      options_for_select([
+        ['Other', 'Other'],
+        ['Religion', 'Religion'],
+        ['Birthday', 'Birthday'],
+        ['National', 'National'],
+      ]))%>
   </div>
   <div class="actions">
     <%= f.submit %>
