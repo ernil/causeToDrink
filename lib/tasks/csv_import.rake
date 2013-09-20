@@ -5,7 +5,7 @@ namespace :db do
 
       require 'csv'
 
-      csv_text = File.read('/home/morion/projects/holidays1.csv')
+      csv_text = File.read('/var/www/reason/holidays.csv')
       csv = CSV.parse(csv_text, :headers => true)
       csv.each do |row|
         Cause.create(row.to_hash)
