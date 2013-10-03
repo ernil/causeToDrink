@@ -3,6 +3,7 @@ namespace :cause do
 	task :tweet => :environment do
 		require 'open-uri'
 		
+		puts Cause.find_random
 		tweet_desc = Cause.find_random.content
 
 		if tweet_desc.length > 134

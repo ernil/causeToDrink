@@ -43,7 +43,7 @@ gem 'jquery-rails'
 
 gem 'newrelic_rpm'
 
-
+gem 'whenever'
 
 # social
 gem 'omniauth-twitter'
