@@ -5,7 +5,8 @@
 
 # Example:
 #
-set :output, "~/projects/rails/causeToDrink/log/cron.log"
+set :environment, 'development' 
+set :output, "/var/log/whenever.log"
 #
 # every 2.hours do
 #   command "/usr/bin/some_great_command"
